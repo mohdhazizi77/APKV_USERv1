@@ -50,6 +50,24 @@ Partial Public Class slip_keputusan_sejarah12511
     Protected WithEvents ddlKodKursus As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
+    '''btnSearch control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnSearch As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
+    '''datRespondent control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents datRespondent As Global.System.Web.UI.WebControls.GridView
+    
+    '''<summary>
     '''ddlHari control.
     '''</summary>
     '''<remarks>

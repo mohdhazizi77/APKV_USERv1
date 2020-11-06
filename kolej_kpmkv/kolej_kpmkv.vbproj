@@ -146,6 +146,7 @@
     <Content Include="commoncontrol\borang.pengisisan.markah.bertulis.ascx" />
     <Content Include="commoncontrol\borang_markah_bmSetara.ascx" />
     <Content Include="commoncontrol\contact_us.ascx" />
+    <Content Include="commoncontrol\error_page.ascx" />
     <Content Include="commoncontrol\gred_list.ascx" />
     <Content Include="commoncontrol\import_markah_matapelajaran.ascx" />
     <Content Include="commoncontrol\import_markah_modul.ascx" />
@@ -264,7 +265,9 @@
     <Content Include="dashboard\rchart\rchart_jsp.jar" />
     <Content Include="DashKursus_view.aspx" />
     <Content Include="default.Master" />
+    <Content Include="error.page.aspx" />
     <Content Include="icons\back.png" />
+    <Content Include="icons\delete.png" />
     <Content Include="icons\download.jpg" />
     <Content Include="img\cert_header-new.png" />
     <Content Include="img\department-store-emoticon.png" />
@@ -819,6 +822,13 @@
       <DependentUpon>borang_markah_bmSetara.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="commoncontrol\error_page.ascx.designer.vb">
+      <DependentUpon>error_page.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="commoncontrol\error_page.ascx.vb">
+      <DependentUpon>error_page.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="commoncontrol\import_markah_matapelajaran.ascx.designer.vb">
       <DependentUpon>import_markah_matapelajaran.ascx</DependentUpon>
     </Compile>
@@ -1324,6 +1334,13 @@
     </Compile>
     <Compile Include="DashKursus_view.aspx.vb">
       <DependentUpon>DashKursus_view.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="error.page.aspx.designer.vb">
+      <DependentUpon>error.page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="error.page.aspx.vb">
+      <DependentUpon>error.page.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="import.modul.markah.aspx.designer.vb">
