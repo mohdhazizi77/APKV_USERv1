@@ -2,10 +2,8 @@
 Imports System.Data.OleDb
 Imports System.Data.SqlClient
 Imports System.IO
-Imports System.Globalization
-Imports RKLib.ExportData
-Imports Excel = Microsoft.Office.Interop.Excel
-Imports ExcelAutoFormat = Microsoft.Office.Interop.Excel.XlRangeAutoFormat
+Imports Microsoft.Office.Interop
+
 Public Class bmSetara_create
     Inherits System.Web.UI.UserControl
     Dim oCommon As New Commonfunction
